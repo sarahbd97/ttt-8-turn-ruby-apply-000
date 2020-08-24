@@ -26,10 +26,10 @@ end
 
 def input_to_index(input)
   index = input.to_i
-  return index - 1
+  index -= 1
 end
 
 def move(board, index, character = "X")
   board[index] = character
-  return board
+  board
 end
