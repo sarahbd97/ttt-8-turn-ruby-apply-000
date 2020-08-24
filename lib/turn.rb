@@ -42,7 +42,6 @@ def turn(board)
     move(board,index)
     display_board(board)
   else
-    print "false"
     turn(board)
   end
 end
